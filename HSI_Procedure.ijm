@@ -50,7 +50,7 @@ run("32-bit");
 run("Duplicate...", "duplicate");
 
 //LambdaStack to XYZ macro
-//Takes spectral image data and transforms into XYZ tristumulus Space
+//Takes spectral image data and transforms into XYZ tristimulus Space
 run("LambdaStack to XYZ", "wavlength=2 starting=393 ending=750");
  print("In LambaStack to XYZ macro:\n2nm wavelength spacing from 393 nm to 750 nm")
 
